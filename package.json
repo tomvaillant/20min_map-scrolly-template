@@ -16,6 +16,6 @@
   "dependencies": {
     "@maptiler/sdk": "^1.2.1",
     "@turf/turf": "^6.5.0",
-    "mapbox-gl": "^3.2.0"
+    "mapbox-gl": "^3.6.0"
   }
 }

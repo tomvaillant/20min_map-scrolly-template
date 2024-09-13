@@ -1,7 +1,9 @@
 
 <script>
+// @ts-ignore
 import { onMount } from 'svelte';
 import { chapters } from './routes.js';
+// @ts-ignore
 import mapboxgl from 'mapbox-gl';
 
 let map;
@@ -12,11 +14,11 @@ onMount(() => {
   
     map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/tomvaillant/cm0v2fyel00tf01pi3qqr263y',
-        center: [9.17372, 47.19078], 
-        zoom: 9.54,
-        bearing: 18.30,
-        pitch: 53.55
+        style: 'mapbox://styles/tomvaillant/cm10g1xy301bh01pb0mabc2iq',
+        center: [8.30165, 47.05012],
+        bearing: -87.34,
+        zoom: 14.57,
+        pitch: 73.02,  
     });
 
     // map.on('load', () => {

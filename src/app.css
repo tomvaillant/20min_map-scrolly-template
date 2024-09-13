@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'BatonTurbo';
+    src: url('./fonts/BatonTurboWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'BatonTurbo';
+    src: url('./fonts/BatonTurboWeb-Medium.woff') format('woff');
+    font-style: bold;
+  }
