@@ -8,5 +8,6 @@
   @font-face {
     font-family: 'BatonTurbo';
     src: url('./fonts/BatonTurboWeb-Medium.woff') format('woff');
+    font-weight: bold;
     font-style: bold;
   }
