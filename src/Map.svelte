@@ -1,7 +1,6 @@
 
 <script>
 import { onMount } from 'svelte';
-import * as maptilersdk from '@maptiler/sdk';
 import { chapters } from './routes.js';
 import mapboxgl from 'mapbox-gl';
 
@@ -9,7 +8,7 @@ let map;
 
 onMount(() => {
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoidG9tdmFpbGxhbnQiLCJhIjoiY20wdXlpcWVvMTdxNTJrc2J4bHpxdmN2NSJ9.ITiEdNl3dwn3OJbhKHQxgw';
+    mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_API_KEY;
   
     map = new mapboxgl.Map({
         container: 'map',
