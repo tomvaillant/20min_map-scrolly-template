@@ -26,6 +26,9 @@ onMount(() => {
     //         map.setLayoutProperty('future', 'visibility', 'none');
     //     }
     // });
+    map.on('load', () => {
+        setActiveChapter('position-1');
+    });
 
     window.onscroll = function () {
         var chapterNames = Object.keys(chapters);
@@ -39,6 +42,7 @@ onMount(() => {
     };
 
     var activeChapterName = 'position-1';
+    
     function setActiveChapter(chapterName) {
         if (chapterName === activeChapterName) return;
 
@@ -51,15 +55,6 @@ onMount(() => {
         document.getElementById(activeChapterName).classList.remove('active');
 
         activeChapterName = chapterName;
-
-        // switch (activeChapterName) {
-        //     case 'position-2':
-        //         setTimeout(() => toggleLayerVisibility('future'), 500);
-        //     break;
-        //     case 'position-4':
-        //         setTimeout(() => toggleLayerVisibility('future'), 1000);
-        //     break;
-        // }
     }
 
     // function toggleLayerVisibility(layerId) {

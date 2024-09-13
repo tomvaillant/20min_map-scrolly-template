@@ -12,7 +12,7 @@
     <section id="position-2" class="sizer" >
       <div class="textbox">Die Anwohnenden dürfen die bergseitigen Räume wie Schlaf- oder Wohnzimmer bis auf Weiteres nicht mehr nutzen. Ein möglicher Felssturz birgt im Ereignisfall ein hohes Schadenpotenzial.</div>
     </section>
-    <section class="sizer">
+    <section id="position-3" class="sizer">
       <div class="textbox">Im Sturzraum befinden sich auch die Zufahrtsgleise zum Bahnhof Luzern, was zu einem längeren Unterbruch der Bahnhofszufahrt führen würde. Seit Mitte August wird die Felspartie laufend überwacht.</div>
     </section>
   </div>
