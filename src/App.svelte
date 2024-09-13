@@ -15,9 +15,6 @@
     <section class="sizer">
       <div class="textbox">Im Sturzraum befinden sich auch die Zufahrtsgleise zum Bahnhof Luzern, was zu einem längeren Unterbruch der Bahnhofszufahrt führen würde. Seit Mitte August wird die Felspartie laufend überwacht.</div>
     </section>
-    <section id="position-3" class="sizer">
-      <div class="textbox">Im Sturzraum befinden sich auch die Zufahrtsgleise zum Bahnhof Luzern, was zu einem längeren Unterbruch der Bahnhofszufahrt führen würde. Seit Mitte August wird die Felspartie laufend überwacht.</div>
-    </section>
   </div>
 </main>
 
